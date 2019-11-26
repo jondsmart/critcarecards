@@ -14,16 +14,19 @@
         <a-assets>
             <a-asset-item id="posems" src="https://raw.githubusercontent.com/jondsmart/critcarecards/master/posems.gltf"></a-asset-item>
         </a-assets>
-
-       
-
-        <a-marker id="animated-marker" type='barcode' value='6'>
+            
+  <!-- Positive Cards -->
+            
+        <a-marker id="animated-marker" type='barcode' value='0'>
             <a-entity
                 animation-mixer
                 gltf-model="#posems"
                 scale="0.02 0.02 0.02">
             </a-entity>
         </a-marker>
+       
+            
+  <!-- Negative Cards -->
 
         <a-entity camera></a-entity>
         </a-scene>
