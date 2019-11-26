@@ -14,6 +14,12 @@
         <a-assets>
             <a-asset-item id="posems" src="https://raw.githubusercontent.com/jondsmart/critcarecards/master/posems.gltf"></a-asset-item>
             <a-asset-item id="posox" src="https://raw.githubusercontent.com/jondsmart/critcarecards/master/posox.gltf"></a-asset-item>
+            <a-asset-item id="posox" src="https://raw.githubusercontent.com/jondsmart/critcarecards/master/poscutpac.gltf"></a-asset-item>
+            <a-asset-item id="posox" src="https://raw.githubusercontent.com/jondsmart/critcarecards/master/posdissect.gltf"></a-asset-item>
+            <a-asset-item id="posox" src="https://raw.githubusercontent.com/jondsmart/critcarecards/master/posnaso.gltf"></a-asset-item>
+            <a-asset-item id="posox" src="https://raw.githubusercontent.com/jondsmart/critcarecards/master/pospeep.gltf"></a-asset-item>
+            <a-asset-item id="posox" src="https://raw.githubusercontent.com/jondsmart/critcarecards/master/posart.gltf"></a-asset-item>
+            <a-asset-item id="posox" src="https://raw.githubusercontent.com/jondsmart/critcarecards/master/poscxray.gltf"></a-asset-item>
         </a-assets>
             
   <!-- Positive Cards -->
@@ -32,7 +38,55 @@
                 gltf-model="#posox"
                 scale="0.02 0.02 0.02">
             </a-entity>
-        </a-marker>     
+        </a-marker>    
+            
+            <a-marker id="animated-marker" type='barcode' value='2'>
+            <a-entity
+                animation-mixer
+                gltf-model="#poscutpac"
+                scale="0.02 0.02 0.02">
+            </a-entity>
+        </a-marker>  
+            
+              <a-marker id="animated-marker" type='barcode' value='3'>
+            <a-entity
+                animation-mixer
+                gltf-model="#posdissect"
+                scale="0.02 0.02 0.02">
+            </a-entity>
+        </a-marker>  
+            
+              <a-marker id="animated-marker" type='barcode' value='4'>
+            <a-entity
+                animation-mixer
+                gltf-model="#posnaso"
+                scale="0.02 0.02 0.02">
+            </a-entity>
+        </a-marker>  
+            
+              <a-marker id="animated-marker" type='barcode' value='5'>
+            <a-entity
+                animation-mixer
+                gltf-model="#pospeep"
+                scale="0.02 0.02 0.02">
+            </a-entity>
+        </a-marker>  
+            
+              <a-marker id="animated-marker" type='barcode' value='6'>
+            <a-entity
+                animation-mixer
+                gltf-model="#posart"
+                scale="0.02 0.02 0.02">
+            </a-entity>
+        </a-marker>  
+            
+              <a-marker id="animated-marker" type='barcode' value='1'>
+            <a-entity
+                animation-mixer
+                gltf-model="#poscxray"
+                scale="0.02 0.02 0.02">
+            </a-entity>
+        </a-marker>  
 
         <a-entity camera></a-entity>
         </a-scene>
