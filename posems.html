@@ -13,6 +13,7 @@
 
         <a-assets>
             <a-asset-item id="posems" src="https://raw.githubusercontent.com/jondsmart/critcarecards/master/posems.gltf"></a-asset-item>
+            <a-asset-item id="posems" src="https://raw.githubusercontent.com/jondsmart/critcarecards/master/posox.gltf"></a-asset-item>
         </a-assets>
             
   <!-- Positive Cards -->
@@ -24,6 +25,14 @@
                 scale="0.02 0.02 0.02">
             </a-entity>
         </a-marker>
+            
+        <a-marker id="animated-marker" type='barcode' value='01'>
+            <a-entity
+                animation-mixer
+                gltf-model="#posox"
+                scale="0.02 0.02 0.02">
+            </a-entity>
+        </a-marker>     
        
             
   <!-- Negative Cards -->
